@@ -1,0 +1,44 @@
+/* 
+
+Pinnotheque StyleSheet 
+
+Authors: Walid Ziouche, Amine Zenadi
+
+
+
+
+*/
+
+
+/* QMainWindow */ 
+
+#topFrame {
+border: none;
+background: url(:/images/bg.png);
+margin: 0;
+padding: 0;
+}
+
+#bottomFrame {
+border: none;
+background: white;
+}
+
+#topFrame QPushButton{
+color: #333;
+border: none 2px solid #555;
+border-radius: 0px;
+padding: 2px;
+min-width: 50px;
+}
+
+#topFrame QPushButton:hover{
+background:url(:/images/bg-selected.png);
+border-top: 5px solid #c72f25;
+}
+
+#topFrame QPushButton:pressed{
+background: qradialgradient(cx: 0.4, cy: -0.1,
+fx: 0.4, fy: -0.1,
+radius: 1.35, stop: 0 #fff, stop: 1 #ddd);
+}
